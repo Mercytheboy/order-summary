@@ -20,7 +20,10 @@ img {
 }
 
 .container {
-  background-color: hsl(225, 100%, 94%);
+  background: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,9 +39,6 @@ img {
   width: 20rem;
   display: flex;
   flex-direction: column;
-  
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .hero__img{
@@ -126,3 +126,9 @@ img {
   color: hsl(228, 45%, 44%);
 }
 
+@media screen and (min-width="375px") {
+  .container{
+    background: url(./images/pattern-background-desktop.svg)
+  }
+  
+}
