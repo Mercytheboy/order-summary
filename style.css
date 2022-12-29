@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.order__card{
+  margin: 2rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.hero__img{
+  border-radius: 1rem 1rem 0 0;
+}
+
+.content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.desc{
+  text-align: center;
+}
+
+.subscription{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.annual__plan{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.change:hover{
+  text-decoration: none;
+  color: hsl(245, 75%, 65%);
+}
+
+.btn {
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: 100%;
+  font-weight: 700;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: hsl(245, 75%, 65%);
+}
+
+.cancel__order {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+
+.cancel__order:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
